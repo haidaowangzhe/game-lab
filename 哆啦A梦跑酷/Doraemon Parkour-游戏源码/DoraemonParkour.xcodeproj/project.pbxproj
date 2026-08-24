@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		036FC045B017817577D4EE37 /* sfx_win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 992C4C1264AA0FF268E592D4 /* sfx_win.wav */; };
+		1593D3E90FD5C2ECEC6C88D1 /* InventoryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057E758E7567793D8B074EDB /* InventoryViews.swift */; };
+		2534144058E208EA56CE9E48 /* sfx_confirm.wav in Resources */ = {isa = PBXBuildFile; fileRef = 59FC3169E03452D9AC9C8378 /* sfx_confirm.wav */; };
+		25427B95A2D2B146E05DB534 /* sfx_tap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7CAD49FF35206C9F686A4D14 /* sfx_tap.wav */; };
+		28C6E9CA090F4A7F965B7630 /* sfx_pickup.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8F22FDAF17EEDADA62AE2F82 /* sfx_pickup.wav */; };
+		2A8CDBC57A7DF145B9AB817B /* bgm_run.wav in Resources */ = {isa = PBXBuildFile; fileRef = 638E10FAF4D501F8DB08285A /* bgm_run.wav */; };
+		3B6FF11D2EAC2CEE28B2BE5A /* DoraemonParkourApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBEF67AAE97DED6EB48A96C /* DoraemonParkourApp.swift */; };
+		570E933106B2963812ADE35B /* ShopViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6675D70A9735ED8EB53E5A11 /* ShopViews.swift */; };
+		5743E93E5CE83EFA551DBAED /* 素材 in Resources */ = {isa = PBXBuildFile; fileRef = 95A316CBE6A255ACBF76F81D /* 素材 */; };
+		6D963BEB5909173BCFE06A7D /* SettingsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B7F5C445DBEB722F331E9E /* SettingsViews.swift */; };
+		80CF1D5405316BC35CFC2243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D0A799155A01A92B52CC7C /* Assets.xcassets */; };
+		86C50DDF4D27AB3E40211CE7 /* EntryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B7A50C8F8836D282507BDF /* EntryViews.swift */; };
+		895F551EA5CC6C97CB20F901 /* sfx_chest.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7782B5FDD412C63B49C11AB9 /* sfx_chest.wav */; };
+		8C133BD4994F324B496CEA05 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D72984D4F2750240E2A8FD /* AudioManager.swift */; };
+		8CEED4978F73FE6B3CD1C8C4 /* AssetImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522BE09EB571E3B2891FB7ED /* AssetImage.swift */; };
+		ABC1A7BAB59BCFB7B66FCC70 /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C247E9C36063E03955E3A34 /* GameModels.swift */; };
+		BCEF47CC74F24785BF1A740F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C9D8E14EA07DF0C9AC28E8 /* Foundation.framework */; };
+		E0857CFCCD660DC33DF789CE /* RunGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3FE6F5A3B1D996F2D0E2AB /* RunGameViewModel.swift */; };
+		E2B94961B063D61C2D795C37 /* bgm_result.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9D507253328FDCC19C773FAA /* bgm_result.wav */; };
+		E5896B02C69EF62E18A672EF /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5863189B1BCED50176B5A9 /* RootView.swift */; };
+		E5D15A5FC05F30299A0A065A /* bgm_home.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF11A6689DC559FA9EA0B7F5 /* bgm_home.wav */; };
+		E76C55CC301640E9F7A3B382 /* sfx_hurt.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2C1C6209857B73EC37B9462C /* sfx_hurt.wav */; };
+		EEC659E199DDDC7FC2D6A369 /* sfx_jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 541DA1E20B7CFE3B8D86A9B1 /* sfx_jump.wav */; };
+		EEDD9909A9DC792802F535BB /* SaveStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267EC0C0E0D82DE053A78EF5 /* SaveStore.swift */; };
+		F82010D817700F81F3D0970E /* RunGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B455A1E7419C2A85B4FC550 /* RunGameView.swift */; };
+		FB2198839EBD27E97C904894 /* GameAppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F033E720648EC40E5C4F4FB /* GameAppState.swift */; };
+		FCDB779AE8B602C0CE8A4D1D /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB0842DDDECB248069BE9A /* Layout.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		057E758E7567793D8B074EDB /* InventoryViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InventoryViews.swift; path = Views/InventoryViews.swift; sourceTree = "<group>"; };
+		16D0A799155A01A92B52CC7C /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B3FE6F5A3B1D996F2D0E2AB /* RunGameViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RunGameViewModel.swift; path = Models/RunGameViewModel.swift; sourceTree = "<group>"; };
+		267EC0C0E0D82DE053A78EF5 /* SaveStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SaveStore.swift; path = Services/SaveStore.swift; sourceTree = "<group>"; };
+		2C1C6209857B73EC37B9462C /* sfx_hurt.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; path = sfx_hurt.wav; sourceTree = "<group>"; };
+		3C5863189B1BCED50176B5A9 /* RootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RootView.swift; path = Views/RootView.swift; sourceTree = "<group>"; };
+		3D993F471191F3CE94008D78 /* Doraemon Parkour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Doraemon Parkour.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C247E9C36063E03955E3A34 /* GameModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GameModels.swift; path = Models/GameModels.swift; sourceTree = "<group>"; };
+		522BE09EB571E3B2891FB7ED /* AssetImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetImage.swift; path = Services/AssetImage.swift; sourceTree = "<group>"; };
+		541DA1E20B7CFE3B8D86A9B1 /* sfx_jump.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; path = sfx_jump.wav; sourceTree = "<group>"; };
+		56D72984D4F2750240E2A8FD /* AudioManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioManager.swift; path = Services/AudioManager.swift; sourceTree = "<group>"; };
+		59FC3169E03452D9AC9C8378 /* sfx_confirm.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; path = sfx_confirm.wav; sourceTree = "<group>"; };
+		638E10FAF4D501F8DB08285A /* bgm_run.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; path = bgm_run.wav; sourceTree = "<group>"; };
+		6675D70A9735ED8EB53E5A11 /* ShopViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShopViews.swift; path = Views/ShopViews.swift; sourceTree = "<group>"; };
+		6B455A1E7419C2A85B4FC550 /* RunGameView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RunGameView.swift; path = Views/RunGameView.swift; sourceTree = "<group>"; };
+		74C9D8E14EA07DF0C9AC28E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7782B5FDD412C63B49C11AB9 /* sfx_chest.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; path = sfx_chest.wav; sourceTree = "<group>"; };
+		7CAD49FF35206C9F686A4D14 /* sfx_tap.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; path = sfx_tap.wav; sourceTree = "<group>"; };
+		8F22FDAF17EEDADA62AE2F82 /* sfx_pickup.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; path = sfx_pickup.wav; sourceTree = "<group>"; };
+		95A316CBE6A255ACBF76F81D /* 素材 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "素材"; path = "../设计资料/素材"; sourceTree = "<group>"; };
+		992C4C1264AA0FF268E592D4 /* sfx_win.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; path = sfx_win.wav; sourceTree = "<group>"; };
+		9D507253328FDCC19C773FAA /* bgm_result.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; path = bgm_result.wav; sourceTree = "<group>"; };
+		9F033E720648EC40E5C4F4FB /* GameAppState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GameAppState.swift; path = Models/GameAppState.swift; sourceTree = "<group>"; };
+		A5EB0842DDDECB248069BE9A /* Layout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Layout.swift; path = Views/Layout.swift; sourceTree = "<group>"; };
+		BBBEF67AAE97DED6EB48A96C /* DoraemonParkourApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoraemonParkourApp.swift; sourceTree = "<group>"; };
+		CF11A6689DC559FA9EA0B7F5 /* bgm_home.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; path = bgm_home.wav; sourceTree = "<group>"; };
+		D2B7A50C8F8836D282507BDF /* EntryViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EntryViews.swift; path = Views/EntryViews.swift; sourceTree = "<group>"; };
+		D4B7F5C445DBEB722F331E9E /* SettingsViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsViews.swift; path = Views/SettingsViews.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF7EAE3202C842B75FECF42E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEF47CC74F24785BF1A740F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15D04B4EB1B8C987D07242A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BEE19507BBF27CE9F0271C8 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BEE19507BBF27CE9F0271C8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				74C9D8E14EA07DF0C9AC28E8 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		46B7B36F6C1F24CD3E598F24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D993F471191F3CE94008D78 /* Doraemon Parkour.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A6786548E0A23181574E459 /* DoraemonParkour */ = {
+			isa = PBXGroup;
+			children = (
+				BBBEF67AAE97DED6EB48A96C /* DoraemonParkourApp.swift */,
+				9F033E720648EC40E5C4F4FB /* GameAppState.swift */,
+				4C247E9C36063E03955E3A34 /* GameModels.swift */,
+				1B3FE6F5A3B1D996F2D0E2AB /* RunGameViewModel.swift */,
+				522BE09EB571E3B2891FB7ED /* AssetImage.swift */,
+				56D72984D4F2750240E2A8FD /* AudioManager.swift */,
+				267EC0C0E0D82DE053A78EF5 /* SaveStore.swift */,
+				D2B7A50C8F8836D282507BDF /* EntryViews.swift */,
+				057E758E7567793D8B074EDB /* InventoryViews.swift */,
+				A5EB0842DDDECB248069BE9A /* Layout.swift */,
+				3C5863189B1BCED50176B5A9 /* RootView.swift */,
+				6B455A1E7419C2A85B4FC550 /* RunGameView.swift */,
+				D4B7F5C445DBEB722F331E9E /* SettingsViews.swift */,
+				6675D70A9735ED8EB53E5A11 /* ShopViews.swift */,
+				16D0A799155A01A92B52CC7C /* Assets.xcassets */,
+				92AEBC33745450ADD8341E78 /* Audio */,
+			);
+			path = DoraemonParkour;
+			sourceTree = "<group>";
+		};
+		8865D50B9A169A4F5AA5707D = {
+			isa = PBXGroup;
+			children = (
+				46B7B36F6C1F24CD3E598F24 /* Products */,
+				15D04B4EB1B8C987D07242A5 /* Frameworks */,
+				6A6786548E0A23181574E459 /* DoraemonParkour */,
+				95A316CBE6A255ACBF76F81D /* 素材 */,
+			);
+			sourceTree = "<group>";
+		};
+		92AEBC33745450ADD8341E78 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				CF11A6689DC559FA9EA0B7F5 /* bgm_home.wav */,
+				9D507253328FDCC19C773FAA /* bgm_result.wav */,
+				638E10FAF4D501F8DB08285A /* bgm_run.wav */,
+				7782B5FDD412C63B49C11AB9 /* sfx_chest.wav */,
+				59FC3169E03452D9AC9C8378 /* sfx_confirm.wav */,
+				2C1C6209857B73EC37B9462C /* sfx_hurt.wav */,
+				541DA1E20B7CFE3B8D86A9B1 /* sfx_jump.wav */,
+				8F22FDAF17EEDADA62AE2F82 /* sfx_pickup.wav */,
+				7CAD49FF35206C9F686A4D14 /* sfx_tap.wav */,
+				992C4C1264AA0FF268E592D4 /* sfx_win.wav */,
+			);
+			name = Audio;
+			path = Resources/Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F472CC3964F84EA5D87C51AB /* Doraemon Parkour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21880666A28FFCF64D40EF3D /* Build configuration list for PBXNativeTarget "Doraemon Parkour" */;
+			buildPhases = (
+				3C1821FCBE25BA574CDA0C7C /* Sources */,
+				CF7EAE3202C842B75FECF42E /* Frameworks */,
+				65BBAD55204DCF249CF5BB17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Doraemon Parkour";
+			productName = "Doraemon Parkour";
+			productReference = 3D993F471191F3CE94008D78 /* Doraemon Parkour.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E9152D3D4CC474508099B30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					F472CC3964F84EA5D87C51AB = {
+						DevelopmentTeam = CRYC49U3L6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 45342CCF59DDAA29FE69D69C /* Build configuration list for PBXProject "DoraemonParkour" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8865D50B9A169A4F5AA5707D;
+			productRefGroup = 46B7B36F6C1F24CD3E598F24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F472CC3964F84EA5D87C51AB /* Doraemon Parkour */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65BBAD55204DCF249CF5BB17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CF1D5405316BC35CFC2243 /* Assets.xcassets in Resources */,
+				E5D15A5FC05F30299A0A065A /* bgm_home.wav in Resources */,
+				E2B94961B063D61C2D795C37 /* bgm_result.wav in Resources */,
+				2A8CDBC57A7DF145B9AB817B /* bgm_run.wav in Resources */,
+				895F551EA5CC6C97CB20F901 /* sfx_chest.wav in Resources */,
+				2534144058E208EA56CE9E48 /* sfx_confirm.wav in Resources */,
+				E76C55CC301640E9F7A3B382 /* sfx_hurt.wav in Resources */,
+				EEC659E199DDDC7FC2D6A369 /* sfx_jump.wav in Resources */,
+				28C6E9CA090F4A7F965B7630 /* sfx_pickup.wav in Resources */,
+				25427B95A2D2B146E05DB534 /* sfx_tap.wav in Resources */,
+				036FC045B017817577D4EE37 /* sfx_win.wav in Resources */,
+				5743E93E5CE83EFA551DBAED /* 素材 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C1821FCBE25BA574CDA0C7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6FF11D2EAC2CEE28B2BE5A /* DoraemonParkourApp.swift in Sources */,
+				FB2198839EBD27E97C904894 /* GameAppState.swift in Sources */,
+				ABC1A7BAB59BCFB7B66FCC70 /* GameModels.swift in Sources */,
+				E0857CFCCD660DC33DF789CE /* RunGameViewModel.swift in Sources */,
+				8CEED4978F73FE6B3CD1C8C4 /* AssetImage.swift in Sources */,
+				8C133BD4994F324B496CEA05 /* AudioManager.swift in Sources */,
+				EEDD9909A9DC792802F535BB /* SaveStore.swift in Sources */,
+				86C50DDF4D27AB3E40211CE7 /* EntryViews.swift in Sources */,
+				1593D3E90FD5C2ECEC6C88D1 /* InventoryViews.swift in Sources */,
+				FCDB779AE8B602C0CE8A4D1D /* Layout.swift in Sources */,
+				E5896B02C69EF62E18A672EF /* RootView.swift in Sources */,
+				F82010D817700F81F3D0970E /* RunGameView.swift in Sources */,
+				6D963BEB5909173BCFE06A7D /* SettingsViews.swift in Sources */,
+				570E933106B2963812ADE35B /* ShopViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		091C175126F3AFFE588E426E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CRYC49U3L6;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DoraemonParkour/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Doraemon Parkour";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itzzw.doraemonparkour;
+				PRODUCT_NAME = "Doraemon Parkour";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BCC500A1D4344A6B09A8905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CRYC49U3L6;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DoraemonParkour/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Doraemon Parkour";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itzzw.doraemonparkour;
+				PRODUCT_NAME = "Doraemon Parkour";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75A6236308364B37E21DDA04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A9C77EF7EC5550B4FDEACE0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21880666A28FFCF64D40EF3D /* Build configuration list for PBXNativeTarget "Doraemon Parkour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCC500A1D4344A6B09A8905 /* Release */,
+				091C175126F3AFFE588E426E /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45342CCF59DDAA29FE69D69C /* Build configuration list for PBXProject "DoraemonParkour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A6236308364B37E21DDA04 /* Debug */,
+				A9C77EF7EC5550B4FDEACE0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E9152D3D4CC474508099B30 /* Project object */;
+}
