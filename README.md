@@ -1,17 +1,46 @@
 # game-lab
 
-个人游戏练习与作品集仓库。当前收录《哆啦A梦跑酷》相关内容。
+个人游戏练习与作品集仓库。当前收录《哆啦A梦跑酷》两个端：
 
-> **说明**：主题含第三方 IP，仅供作品集展示与学习交流，**不上架 App Store**。本仓库**只上传了源码与部分文档／演示材料**，完整素材包、完整设计图、设计说明书等未全部公开。
+- **iOS**：SwiftUI · Xcode
+- **Android**：Cocos Creator 3.8.8 · TypeScript
+
+> **说明**：主题含第三方 IP，仅供作品集展示与学习交流，**不上架 App Store / 应用商店**。本仓库**只上传了源码与部分文档／演示材料**，完整设计图、设计说明书等未全部公开。
 
 ---
 
-## 哆啦A梦跑酷 / Doraemon Parkour
+## 仓库目录
+
+```text
+game-lab/
+├── README.md
+├── 哆啦A梦跑酷/                 # iOS 版
+│   ├── Doraemon Parkour-游戏源码/
+│   └── 设计资料/
+└── 哆啦A梦-Android-cocos/       # Android 版
+    ├── Doraemon-Parkour-game/   # Cocos 工程
+    ├── 游戏操作文档.md
+    ├── 游戏设计与素材使用总结.md
+    └── 运行效果.mp4
+```
+
+---
+
+## 玩法概要（两端相同）
+
+- 关卡流程：加载 → 大厅 → 选关 → 局内跑酷 → 暂停／结算
+- 局内：双段跳／飞行、血心与能量技、掉落与碰撞、道具快捷栏
+- 养成：金币／钻石、商城、背包携带、宝箱开箱、本地存档
+- 约 23 张页面／弹窗设计；第一版 20 关（固定种子）
+
+---
+
+## iOS 版（SwiftUI）
 
 横屏 2D 像素风跑酷单机 Demo（SwiftUI · iOS · Xcode）。  
 工程名：Doraemon Parkour。
 
-### 本仓库已上传内容
+### 已上传内容
 
 ```text
 哆啦A梦跑酷/
@@ -27,13 +56,6 @@
 ```
 
 未上传示例：`素材/`、`完整设计图/`、`设计说明书/`、过程归档等（本地完整工程才有）。
-
-### 玩法概要
-
-- 关卡流程：加载 → 大厅 → 选关 → 局内跑酷 → 暂停／结算
-- 局内：双段跳／飞行、血心与能量技、掉落与碰撞、道具快捷栏
-- 养成：金币／钻石、商城、背包携带、宝箱开箱、本地存档
-- 约 23 张页面／弹窗设计；第一版 20 关（固定种子）
 
 ### 文档与演示
 
@@ -52,7 +74,46 @@
 
 选择模拟器或真机，运行 Target **Doraemon Parkour**。
 
-### 协作方式
+---
+
+## Android 版（Cocos Creator）
+
+同一套玩法的 Android 移植（Cocos Creator 3.8.8 · TypeScript）。  
+工程名：Doraemon-Parkour-game。
+
+### 已上传内容
+
+```text
+哆啦A梦-Android-cocos/
+├── Doraemon-Parkour-game/         # Cocos 源码、场景、脚本与局内素材
+│   ├── assets/
+│   ├── settings/
+│   └── package.json               # Creator 3.8.8
+├── 游戏操作文档.md
+├── 游戏设计与素材使用总结.md
+└── 运行效果.mp4                   # 演示视频
+```
+
+未上传：`library/`、`temp/`、`build/`、`native/`、安装包（APK）等。Cocos 打开工程后会重新生成 `library/`；若需真机包，请在 Creator 里重新构建。
+
+### 文档与演示
+
+- [游戏操作文档](哆啦A梦-Android-cocos/游戏操作文档.md)
+- [游戏设计与素材使用总结](哆啦A梦-Android-cocos/游戏设计与素材使用总结.md)
+- [运行效果.mp4](哆啦A梦-Android-cocos/运行效果.mp4)
+
+### 关于运行
+
+1. 安装 [Cocos Creator 3.8.8](https://www.cocos.com/creator-download)
+2. 打开工程目录：
+
+   `哆啦A梦-Android-cocos/Doraemon-Parkour-game`
+
+3. 等待资源导入完成后，预览或构建 Android
+
+---
+
+## 协作方式
 
 个人主导玩法与系统设计、规范与验收；使用 AI（Cursor／Codex 等）按规范辅助实现，再以设计图／效果图对照返工。
 
