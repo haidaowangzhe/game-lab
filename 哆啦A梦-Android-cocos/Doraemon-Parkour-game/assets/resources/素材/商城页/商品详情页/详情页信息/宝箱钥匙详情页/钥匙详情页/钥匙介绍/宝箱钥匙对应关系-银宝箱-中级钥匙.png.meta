@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "29bd654f-b3d5-4323-a887-d8bdd6ed3425",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "29bd654f-b3d5-4323-a887-d8bdd6ed3425@6c48a",
+      "displayName": "宝箱钥匙对应关系-银宝箱-中级钥匙",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "29bd654f-b3d5-4323-a887-d8bdd6ed3425",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "29bd654f-b3d5-4323-a887-d8bdd6ed3425@f9941",
+      "displayName": "宝箱钥匙对应关系-银宝箱-中级钥匙",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 2,
+        "trimY": 2,
+        "width": 926,
+        "height": 71,
+        "rawWidth": 930,
+        "rawHeight": 75,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -463,
+            -35.5,
+            0,
+            463,
+            -35.5,
+            0,
+            -463,
+            35.5,
+            0,
+            463,
+            35.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            2,
+            73,
+            928,
+            73,
+            2,
+            2,
+            928,
+            2
+          ],
+          "nuv": [
+            0.002150537634408602,
+            0.02666666666666667,
+            0.9978494623655914,
+            0.02666666666666667,
+            0.002150537634408602,
+            0.9733333333333334,
+            0.9978494623655914,
+            0.9733333333333334
+          ],
+          "minPos": [
+            -463,
+            -35.5,
+            0
+          ],
+          "maxPos": [
+            463,
+            35.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "29bd654f-b3d5-4323-a887-d8bdd6ed3425@6c48a",
+        "atlasUuid": "",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": true,
+    "redirect": "29bd654f-b3d5-4323-a887-d8bdd6ed3425@6c48a"
+  }
+}

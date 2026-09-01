@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.24",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "d1f52d59-97bc-4b36-ba54-77b628eeb5fd",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/scripts/pages/SettingsPage.js",
+    "importerSettings": 7,
+    "simulateGlobals": []
+  }
+}

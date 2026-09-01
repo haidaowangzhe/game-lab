@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "926f9d9c-c952-4520-b2dd-60e23f416f5e",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "926f9d9c-c952-4520-b2dd-60e23f416f5e@6c48a",
+      "displayName": "007-商品类型恢复饮料",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "926f9d9c-c952-4520-b2dd-60e23f416f5e",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "926f9d9c-c952-4520-b2dd-60e23f416f5e@f9941",
+      "displayName": "007-商品类型恢复饮料",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 3,
+        "trimY": 3,
+        "width": 765,
+        "height": 83,
+        "rawWidth": 771,
+        "rawHeight": 89,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -382.5,
+            -41.5,
+            0,
+            382.5,
+            -41.5,
+            0,
+            -382.5,
+            41.5,
+            0,
+            382.5,
+            41.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            3,
+            86,
+            768,
+            86,
+            3,
+            3,
+            768,
+            3
+          ],
+          "nuv": [
+            0.0038910505836575876,
+            0.033707865168539325,
+            0.9961089494163424,
+            0.033707865168539325,
+            0.0038910505836575876,
+            0.9662921348314607,
+            0.9961089494163424,
+            0.9662921348314607
+          ],
+          "minPos": [
+            -382.5,
+            -41.5,
+            0
+          ],
+          "maxPos": [
+            382.5,
+            41.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "926f9d9c-c952-4520-b2dd-60e23f416f5e@6c48a",
+        "atlasUuid": "",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": true,
+    "redirect": "926f9d9c-c952-4520-b2dd-60e23f416f5e@6c48a"
+  }
+}

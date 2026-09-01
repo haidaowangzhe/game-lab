@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.24",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "5acd623d-a2e4-43f8-afe7-4001b04bcc03",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/scripts/pages/ResultPage.js",
+    "importerSettings": 7,
+    "simulateGlobals": []
+  }
+}

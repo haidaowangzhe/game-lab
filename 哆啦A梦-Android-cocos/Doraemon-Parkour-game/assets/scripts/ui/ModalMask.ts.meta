@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.24",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "3ecce153-757b-49ee-b616-1ec2a548d7b4",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/scripts/ui/ModalMask.js",
+    "importerSettings": 7,
+    "simulateGlobals": []
+  }
+}

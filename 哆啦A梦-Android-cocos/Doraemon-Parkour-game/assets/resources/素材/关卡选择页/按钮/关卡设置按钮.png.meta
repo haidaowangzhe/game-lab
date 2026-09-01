@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "0d3194bb-bf04-4eda-a05a-192c71da055c",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "0d3194bb-bf04-4eda-a05a-192c71da055c@6c48a",
+      "displayName": "关卡设置按钮",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "0d3194bb-bf04-4eda-a05a-192c71da055c",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "0d3194bb-bf04-4eda-a05a-192c71da055c@f9941",
+      "displayName": "关卡设置按钮",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -0.5,
+        "offsetY": 0,
+        "trimX": 2,
+        "trimY": 2,
+        "width": 738,
+        "height": 739,
+        "rawWidth": 743,
+        "rawHeight": 743,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -369,
+            -369.5,
+            0,
+            369,
+            -369.5,
+            0,
+            -369,
+            369.5,
+            0,
+            369,
+            369.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            2,
+            741,
+            740,
+            741,
+            2,
+            2,
+            740,
+            2
+          ],
+          "nuv": [
+            0.0026917900403768506,
+            0.0026917900403768506,
+            0.9959623149394348,
+            0.0026917900403768506,
+            0.0026917900403768506,
+            0.9973082099596231,
+            0.9959623149394348,
+            0.9973082099596231
+          ],
+          "minPos": [
+            -369,
+            -369.5,
+            0
+          ],
+          "maxPos": [
+            369,
+            369.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "0d3194bb-bf04-4eda-a05a-192c71da055c@6c48a",
+        "atlasUuid": "",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": true,
+    "redirect": "0d3194bb-bf04-4eda-a05a-192c71da055c@6c48a"
+  }
+}

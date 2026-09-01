@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.24",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "51337291-70fe-4161-a7aa-42dceef02d02",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/scripts/core/GameAppState.js",
+    "importerSettings": 7,
+    "simulateGlobals": []
+  }
+}

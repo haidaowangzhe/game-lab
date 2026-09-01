@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.24",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "54ce6bf1-6615-4973-b126-4c6870858fe7",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/scripts/pages/LevelSelectPage.js",
+    "importerSettings": 7,
+    "simulateGlobals": []
+  }
+}

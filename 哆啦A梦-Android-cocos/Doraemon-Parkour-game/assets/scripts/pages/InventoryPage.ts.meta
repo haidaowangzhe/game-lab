@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.24",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "a7161188-1ad4-4f0e-bace-fa7f69d640cf",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/scripts/pages/InventoryPage.js",
+    "importerSettings": 7,
+    "simulateGlobals": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.24",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "49062d81-2567-4762-b750-c35a0a5828ae",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/scripts/pages/RunGamePage.js",
+    "importerSettings": 7,
+    "simulateGlobals": []
+  }
+}

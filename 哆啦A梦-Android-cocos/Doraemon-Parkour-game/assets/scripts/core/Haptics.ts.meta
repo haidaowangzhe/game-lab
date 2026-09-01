@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.24",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "58413e2c-0e48-45f6-9fae-3ce2f3f93d1c",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/scripts/core/Haptics.js",
+    "importerSettings": 7,
+    "simulateGlobals": []
+  }
+}

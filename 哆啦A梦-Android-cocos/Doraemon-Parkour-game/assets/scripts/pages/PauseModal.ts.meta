@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.24",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "5f6d2787-9fec-46e8-8682-67091082f35b",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/scripts/pages/PauseModal.js",
+    "importerSettings": 7,
+    "simulateGlobals": []
+  }
+}

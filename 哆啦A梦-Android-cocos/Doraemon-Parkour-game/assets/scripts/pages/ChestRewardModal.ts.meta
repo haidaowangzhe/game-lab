@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.24",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "b8a0f6f6-996c-45e2-be10-0979f7e6176f",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/scripts/pages/ChestRewardModal.js",
+    "importerSettings": 7,
+    "simulateGlobals": []
+  }
+}

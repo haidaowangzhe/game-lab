@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "d5a36968-a70e-4018-b241-4287522019f8",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "d5a36968-a70e-4018-b241-4287522019f8@6c48a",
+      "displayName": "角色卡_小夫",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "d5a36968-a70e-4018-b241-4287522019f8",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "d5a36968-a70e-4018-b241-4287522019f8@f9941",
+      "displayName": "角色卡_小夫",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 8,
+        "trimY": 8,
+        "width": 395,
+        "height": 461,
+        "rawWidth": 411,
+        "rawHeight": 477,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -197.5,
+            -230.5,
+            0,
+            197.5,
+            -230.5,
+            0,
+            -197.5,
+            230.5,
+            0,
+            197.5,
+            230.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            8,
+            469,
+            403,
+            469,
+            8,
+            8,
+            403,
+            8
+          ],
+          "nuv": [
+            0.019464720194647202,
+            0.016771488469601678,
+            0.9805352798053528,
+            0.016771488469601678,
+            0.019464720194647202,
+            0.9832285115303984,
+            0.9805352798053528,
+            0.9832285115303984
+          ],
+          "minPos": [
+            -197.5,
+            -230.5,
+            0
+          ],
+          "maxPos": [
+            197.5,
+            230.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "d5a36968-a70e-4018-b241-4287522019f8@6c48a",
+        "atlasUuid": "",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": true,
+    "redirect": "d5a36968-a70e-4018-b241-4287522019f8@6c48a"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.24",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "79b703a6-10ee-4bfd-9d23-260da288bf44",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/scripts/data/GameData.js",
+    "importerSettings": 7,
+    "simulateGlobals": []
+  }
+}

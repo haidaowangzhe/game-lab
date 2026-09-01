@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.24",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "b992c623-879e-4b38-b846-9e36051132ab",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/scripts/run/RunWorld.js",
+    "importerSettings": 7,
+    "simulateGlobals": []
+  }
+}

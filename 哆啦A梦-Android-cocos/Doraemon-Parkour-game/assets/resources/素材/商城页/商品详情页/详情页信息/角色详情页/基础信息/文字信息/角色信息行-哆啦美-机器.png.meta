@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "ab8eeb25-474f-4875-bd6e-ad1b0c17c34b",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "ab8eeb25-474f-4875-bd6e-ad1b0c17c34b@6c48a",
+      "displayName": "角色信息行-哆啦美-机器",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "ab8eeb25-474f-4875-bd6e-ad1b0c17c34b",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "ab8eeb25-474f-4875-bd6e-ad1b0c17c34b@f9941",
+      "displayName": "角色信息行-哆啦美-机器",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 2,
+        "trimY": 2,
+        "width": 969,
+        "height": 59,
+        "rawWidth": 973,
+        "rawHeight": 63,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -484.5,
+            -29.5,
+            0,
+            484.5,
+            -29.5,
+            0,
+            -484.5,
+            29.5,
+            0,
+            484.5,
+            29.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            2,
+            61,
+            971,
+            61,
+            2,
+            2,
+            971,
+            2
+          ],
+          "nuv": [
+            0.0020554984583761563,
+            0.031746031746031744,
+            0.9979445015416238,
+            0.031746031746031744,
+            0.0020554984583761563,
+            0.9682539682539683,
+            0.9979445015416238,
+            0.9682539682539683
+          ],
+          "minPos": [
+            -484.5,
+            -29.5,
+            0
+          ],
+          "maxPos": [
+            484.5,
+            29.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "ab8eeb25-474f-4875-bd6e-ad1b0c17c34b@6c48a",
+        "atlasUuid": "",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": true,
+    "redirect": "ab8eeb25-474f-4875-bd6e-ad1b0c17c34b@6c48a"
+  }
+}

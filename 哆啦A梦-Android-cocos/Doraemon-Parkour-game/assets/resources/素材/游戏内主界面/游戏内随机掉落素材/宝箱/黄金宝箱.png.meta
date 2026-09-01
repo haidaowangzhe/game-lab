@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "80caacde-5e72-4bc3-bf4d-2c93816d8834",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "80caacde-5e72-4bc3-bf4d-2c93816d8834@6c48a",
+      "displayName": "黄金宝箱",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "80caacde-5e72-4bc3-bf4d-2c93816d8834",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "80caacde-5e72-4bc3-bf4d-2c93816d8834@f9941",
+      "displayName": "黄金宝箱",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 61,
+        "trimY": 0,
+        "width": 1094,
+        "height": 910,
+        "rawWidth": 1216,
+        "rawHeight": 910,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -547,
+            -455,
+            0,
+            547,
+            -455,
+            0,
+            -547,
+            455,
+            0,
+            547,
+            455,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            61,
+            910,
+            1155,
+            910,
+            61,
+            0,
+            1155,
+            0
+          ],
+          "nuv": [
+            0.05016447368421053,
+            0,
+            0.9498355263157895,
+            0,
+            0.05016447368421053,
+            1,
+            0.9498355263157895,
+            1
+          ],
+          "minPos": [
+            -547,
+            -455,
+            0
+          ],
+          "maxPos": [
+            547,
+            455,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "80caacde-5e72-4bc3-bf4d-2c93816d8834@6c48a",
+        "atlasUuid": "",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": true,
+    "redirect": "80caacde-5e72-4bc3-bf4d-2c93816d8834@6c48a"
+  }
+}

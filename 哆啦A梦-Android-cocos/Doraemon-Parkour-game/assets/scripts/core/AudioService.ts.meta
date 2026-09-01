@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.24",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "95e86eca-1734-49cf-ade6-ed56a1bd604d",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/scripts/core/AudioService.js",
+    "importerSettings": 7,
+    "simulateGlobals": []
+  }
+}

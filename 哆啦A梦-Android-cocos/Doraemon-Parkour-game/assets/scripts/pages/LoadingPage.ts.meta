@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.24",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "1ac8b7df-d7c6-481e-9151-7731b0d80694",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/scripts/pages/LoadingPage.js",
+    "importerSettings": 7,
+    "simulateGlobals": []
+  }
+}

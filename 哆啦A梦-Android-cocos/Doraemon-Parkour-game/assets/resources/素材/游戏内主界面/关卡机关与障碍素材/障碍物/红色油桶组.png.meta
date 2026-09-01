@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "98e5c6fc-c0bb-46d2-b012-c722acaa8943",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "98e5c6fc-c0bb-46d2-b012-c722acaa8943@6c48a",
+      "displayName": "红色油桶组",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "98e5c6fc-c0bb-46d2-b012-c722acaa8943",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "98e5c6fc-c0bb-46d2-b012-c722acaa8943@f9941",
+      "displayName": "红色油桶组",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 8,
+        "trimY": 8,
+        "width": 187,
+        "height": 148,
+        "rawWidth": 203,
+        "rawHeight": 164,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -93.5,
+            -74,
+            0,
+            93.5,
+            -74,
+            0,
+            -93.5,
+            74,
+            0,
+            93.5,
+            74,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            8,
+            156,
+            195,
+            156,
+            8,
+            8,
+            195,
+            8
+          ],
+          "nuv": [
+            0.03940886699507389,
+            0.04878048780487805,
+            0.9605911330049262,
+            0.04878048780487805,
+            0.03940886699507389,
+            0.9512195121951219,
+            0.9605911330049262,
+            0.9512195121951219
+          ],
+          "minPos": [
+            -93.5,
+            -74,
+            0
+          ],
+          "maxPos": [
+            93.5,
+            74,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "98e5c6fc-c0bb-46d2-b012-c722acaa8943@6c48a",
+        "atlasUuid": "",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": true,
+    "redirect": "98e5c6fc-c0bb-46d2-b012-c722acaa8943@6c48a"
+  }
+}

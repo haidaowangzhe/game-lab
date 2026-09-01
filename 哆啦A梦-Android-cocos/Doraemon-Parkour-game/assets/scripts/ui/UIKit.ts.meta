@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.24",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "07fab8a5-7403-4e17-ae4c-dfccca901903",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/scripts/ui/UIKit.js",
+    "importerSettings": 7,
+    "simulateGlobals": []
+  }
+}

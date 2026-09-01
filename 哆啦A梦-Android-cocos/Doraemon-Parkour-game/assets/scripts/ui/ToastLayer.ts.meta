@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.24",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "feeee9f6-5e01-40dc-a647-3dc7d63c8840",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/scripts/ui/ToastLayer.js",
+    "importerSettings": 7,
+    "simulateGlobals": []
+  }
+}

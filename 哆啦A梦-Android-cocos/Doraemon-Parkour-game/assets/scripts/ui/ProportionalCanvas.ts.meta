@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.24",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "c8c0e560-4559-43c9-81b3-2009bc89c85e",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/scripts/ui/ProportionalCanvas.js",
+    "importerSettings": 7,
+    "simulateGlobals": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.24",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "6f4877e4-3b3b-4749-8bb0-a9d0b891b01b",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/scripts/pages/InfoModal.js",
+    "importerSettings": 7,
+    "simulateGlobals": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.24",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "a7c1e36e-f7e1-4280-b887-df3829b9be8c",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/scripts/run/WalkAnim.js",
+    "importerSettings": 7,
+    "simulateGlobals": []
+  }
+}
